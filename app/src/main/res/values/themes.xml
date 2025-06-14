@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base dark theme using Material3 -->
+    <style name="Base.Theme.Harshika" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Background color for all screens -->
+        <item name="colorSurface">#121212</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:windowBackground">#121212</item>
+
+        <!-- Primary color (e.g., button color) -->
+        <item name="colorPrimary">#03DAC5</item>
+        <item name="colorPrimaryContainer">#03DAC5</item>
+
+        <!-- On primary (button text) -->
+        <item name="colorOnPrimary">#000000</item>
+
+        <!-- Text and icon colors -->
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+    </style>
+
+    <!-- App theme alias -->
+    <style name="Theme.Harshika" parent="Base.Theme.Harshika" />
+</resources>
